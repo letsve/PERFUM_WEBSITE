@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: rgb(237 231 221);
+}
+.window {
+    background-color: white;
+    width: 555px;
+    height: 432px;
+    display: flex;
+    border-radius: 3% ;
+    justify-content: left;
+    margin: 81px auto auto auto;
+}
+.window p {
+    padding: 10px;
+    margin: 5px;
+}
+.window .name {
+    font-size: 35px;
+    padding-left: 33px;
+
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"SOFT" 0,"WONK" 0;
+}
+.window .salary {
+    color: rgb(91, 167, 91) ;
+    font-size: 30px;
+    padding-left: 33px;
+
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"SOFT" 0,"WONK" 0;
+    
+}
+.window .dis {
+    transform: translate(158px, -43px);
+    text-decoration: line-through;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.window .descrip {
+    padding-left: 29px;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.window .per {
+    letter-spacing: 6px;
+    font-size: 11px;
+    padding-left: 30px;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.window .add {
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(48, 116, 86);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 40px;
+    transform: translate(15px, -34px);
+    padding-top: 13px;
+    padding-bottom: 11px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+} 
+
+
+.window .add:hover {
+    background-color: rgb(13, 65, 13);
+}
+.mobile{
+    display: none;
+}
+
+.window img {
+    width: 270px;
+    height: 432px;
+    border-radius: 3% 0 0 3%;
+
+}
+
+
+@media (max-width : 376px){
+    body {
+        box-sizing: border-box;
+    }
+    .mobile {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 14px;
+        width: 309px;
+        height: 489px;
+        position: relative;
+        margin: auto;
+        margin-top: 21%;
+        
+    }
+    .mobile img {
+        width: 324px;
+        height: 194px;
+        border: 0;
+        width: 324px;
+        height: 194px;
+        border: 14px;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+    .mobile .per{
+        letter-spacing: 6px;
+        font-size: 10px;
+        padding-left: 23px;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        
+        transform: translate(-2px, -18px);
+    }
+    .mobile .name {
+        font-size: 24px;
+        padding-left: 19px;
+        transform: translate(1px, -13px);
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: "SOFT" 0, "WONK" 0;
+    }
+    .mobile .descrip {
+        padding-left: 22px;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        transform: translate(-1px, -3px);
+    }
+    .mobile .salary {
+        color: rgb(91, 167, 91);
+        font-size: 27px;
+        padding-left: 17px;
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: "SOFT" 0, "WONK" 0;
+        transform: translate(5px, 11px);
+    }
+    .mobile .dis {
+        transform: translate(147px, -16px);
+        text-decoration: line-through;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .mobile .add {
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(48, 116, 86);
+        text-align: center;
+        padding-left: 47px;
+        padding-right: 40px;
+        transform: translate(27px, 7px);
+        padding-top: 13px;
+        padding-bottom: 11px;
+        font-size: 18px;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .window{
+        display: none;
+    }
+
+}
